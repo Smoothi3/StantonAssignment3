@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Table</title>
+</head>
+<body>
+    <div class="color-storage" id="element" style="margin-left: auto; margin-right:auto; display:block; padding-top:100px;">
+    <script>
+        var element = document.getElementById("element");
+        element.style.width = {{selection}}*55 + "px";
+    </script>
+        {{{generateColorTable selection}}}
+    </div>  
+</body>
+</html>
